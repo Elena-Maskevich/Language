@@ -10,4 +10,3 @@ def test_button_add_to_basket(browser):
     browser.get(link)
     time.sleep(30)
     assert browser.find_element(By.XPATH, '//form[@id="add_to_basket_form"]//button[@type="submit"]'), 'not found'
-    print('asdfasdfasd')
